@@ -3,6 +3,7 @@ package com.anhtester.Bai26_ParallelExecutionPOM.testcases;
 import com.anhtester.Bai26_ParallelExecutionPOM.pages.LoginPage;
 import com.anhtester.common.BaseTest;
 import com.anhtester.common.LocatorCRM;
+import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -17,6 +18,7 @@ public class LoginTest extends BaseTest {
         loginPage.loginCRM("admin@example.com", "123456");
         WebUI.waitForElementVisible(By.xpath(LocatorCRM.menuDashboard));
         loginPage.verifyLoginSuccess();
+        PropertiesHelper.setValue("EMAIL", "admin@example.com", "src/test/resources/configs/data.properties");
     }
 
     @Test(priority = 2)
