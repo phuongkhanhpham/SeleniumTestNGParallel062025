@@ -2,6 +2,7 @@ package com.anhtester.listeners;
 
 import com.anhtester.helpers.CaptureHelper;
 import com.anhtester.helpers.PropertiesHelper;
+import com.anhtester.utils.LogUtils;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -15,7 +16,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext result) {
-        System.out.println("Setup môi trường onStart: " + result.getStartDate());
+        LogUtils.info("\uD83D\uDEE0Setup môi trường onStart: " + result.getStartDate());
 
 //        CaptureHelper.startRecord("VideoSuite01");
         // Load file Properties config
@@ -27,11 +28,11 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onFinish(ITestContext result) {
-        System.out.println("Kết thúc bộ test: " + result.getEndDate());
-        System.out.println("Test total: " + test_total);
-        System.out.println("Test passed total: " + test_passed_total);
-        System.out.println("Test failed total: " + test_failed_total);
-        System.out.println("Test skipped total: " + test_skipped_total);
+        LogUtils.info("⭕Kết thúc bộ test: " + result.getEndDate());
+        LogUtils.info("Test total: " + test_total);
+        LogUtils.info("Test passed total: " + test_passed_total);
+        LogUtils.info("Test failed total: " + test_failed_total);
+        LogUtils.info("Test skipped total: " + test_skipped_total);
 
 //        CaptureHelper.stopRecord();
         // Gửi mail (đính kèm file logs, file report)
@@ -42,7 +43,7 @@ public class TestListener implements ITestListener {
     public void onTestStart(ITestResult result) {
         // Ghi vào logs File
         // Ghi vòa report chi tiết từng bước
-        System.out.println("Bắt đầu chạy test case: " + result.getName());
+        LogUtils.info("▶Bắt đầu chạy test case: " + result.getName());
         test_total++;
 
         CaptureHelper.startRecord(result.getName());
@@ -50,8 +51,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Test case " + result.getName() + " is passed.");
-        System.out.println("==> Status: " + result.getStatus());
+        LogUtils.info("✅Test case " + result.getName() + " is passed.");
         test_passed_total++;
 
         CaptureHelper.stopRecord();
@@ -59,8 +59,8 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Test case " + result.getName() + " is failed.");
-        System.out.println("==> Status: " + result.getStatus());
+        LogUtils.error("❌Test case " + result.getName() + " is failed.");
+        LogUtils.error(result.getThrowable());
         test_failed_total++;
         CaptureHelper.captureScreenshot(result.getName());
 
@@ -71,8 +71,8 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        System.out.println("Test case " + result.getName() + " is skipped.");
-        System.out.println("==> Status: " + result.getStatus());
+        LogUtils.warn("\uD83D\uDFE1Test case " + result.getName() + " is skipped.");
+        LogUtils.warn(result.getThrowable());
         test_skipped_total++;
 
         CaptureHelper.stopRecord();
