@@ -25,7 +25,7 @@ public class DataProviderFactory {
     @DataProvider(name = "data_provider_login_success", parallel = true)
     public Object[][] dataProviderLoginSuccess() {
         return new Object[][]{
-                {"admin@example.com", "123456"}};
+                {"admin@example1.com", "123456"}};
     }
 
     @DataProvider(name = "data_provider_01")

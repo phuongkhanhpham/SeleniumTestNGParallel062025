@@ -214,3 +214,174 @@
 [INFO] 26-09-2025 13:54:50 [main] LogUtils - Test passed total: 7
 [INFO] 26-09-2025 13:54:50 [main] LogUtils - Test failed total: 7
 [INFO] 26-09-2025 13:54:50 [main] LogUtils - Test skipped total: 0
+[INFO] 28-09-2025 13:27:49 [main] LogUtils - 🛠Setup môi trường onStart: Sun Sep 28 13:27:48 ICT 2025
+[INFO] 28-09-2025 13:27:51 [TestNG-PoolService-1] LogUtils - ▶Bắt đầu chạy test case: loginSuccess
+[INFO] 28-09-2025 13:27:54 [TestNG-PoolService-1] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 13:27:54 [TestNG-PoolService-1] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 13:27:54 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 13:27:54 [TestNG-PoolService-1] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 13:27:55 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 28-09-2025 13:27:55 [TestNG-PoolService-1] LogUtils - ✅Test case loginSuccess is passed.
+[INFO] 28-09-2025 13:27:56 [main] LogUtils - ⭕Kết thúc bộ test: Sun Sep 28 13:27:56 ICT 2025
+[INFO] 28-09-2025 13:27:56 [main] LogUtils - Test total: 1
+[INFO] 28-09-2025 13:27:56 [main] LogUtils - Test passed total: 1
+[INFO] 28-09-2025 13:27:56 [main] LogUtils - Test failed total: 0
+[INFO] 28-09-2025 13:27:56 [main] LogUtils - Test skipped total: 0
+[INFO] 28-09-2025 16:01:19 [main] LogUtils - 🛠Setup môi trường onStart: Sun Sep 28 16:01:18 ICT 2025
+[INFO] 28-09-2025 16:01:20 [TestNG-PoolService-1] LogUtils - ▶Bắt đầu chạy test case: loginSuccess
+[INFO] 28-09-2025 16:01:22 [TestNG-PoolService-1] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:01:22 [TestNG-PoolService-1] LogUtils - Set text admin@example1.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:01:22 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:01:22 [TestNG-PoolService-1] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:01:23 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 28-09-2025 16:01:23 [TestNG-PoolService-1] LogUtils - ❌Test case loginSuccess is failed.
+[ERROR] 28-09-2025 16:01:23 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: FAIL. Vẫn đang ở trang Login expected [false] but found [true]
+[INFO] 28-09-2025 16:01:23 [main] LogUtils - ⭕Kết thúc bộ test: Sun Sep 28 16:01:23 ICT 2025
+[INFO] 28-09-2025 16:01:23 [main] LogUtils - Test total: 1
+[INFO] 28-09-2025 16:01:23 [main] LogUtils - Test passed total: 0
+[INFO] 28-09-2025 16:01:23 [main] LogUtils - Test failed total: 1
+[INFO] 28-09-2025 16:01:23 [main] LogUtils - Test skipped total: 0
+[INFO] 28-09-2025 16:09:10 [main] LogUtils - 🛠Setup môi trường onStart: Sun Sep 28 16:09:09 ICT 2025
+[INFO] 28-09-2025 16:09:11 [TestNG-PoolService-1] LogUtils - ▶Bắt đầu chạy test case: loginSuccess
+[INFO] 28-09-2025 16:09:13 [TestNG-PoolService-1] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:09:13 [TestNG-PoolService-1] LogUtils - Set text admin@example1.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:09:13 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:09:13 [TestNG-PoolService-1] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:09:13 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 28-09-2025 16:09:13 [TestNG-PoolService-1] LogUtils - ❌Test case loginSuccess is failed.
+[ERROR] 28-09-2025 16:09:13 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: FAIL. Vẫn đang ở trang Login expected [false] but found [true]
+[INFO] 28-09-2025 16:09:14 [main] LogUtils - ⭕Kết thúc bộ test: Sun Sep 28 16:09:14 ICT 2025
+[INFO] 28-09-2025 16:09:14 [main] LogUtils - Test total: 1
+[INFO] 28-09-2025 16:09:14 [main] LogUtils - Test passed total: 0
+[INFO] 28-09-2025 16:09:14 [main] LogUtils - Test failed total: 1
+[INFO] 28-09-2025 16:09:14 [main] LogUtils - Test skipped total: 0
+[INFO] 28-09-2025 16:11:13 [main] LogUtils - 🛠Setup môi trường onStart: Sun Sep 28 16:11:13 ICT 2025
+[INFO] 28-09-2025 16:11:14 [TestNG-PoolService-1] LogUtils - ▶Bắt đầu chạy test case: loginSuccess
+[INFO] 28-09-2025 16:11:17 [TestNG-PoolService-1] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:11:17 [TestNG-PoolService-1] LogUtils - Set text admin@example1.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:11:17 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:11:18 [TestNG-PoolService-1] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:11:18 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 28-09-2025 16:11:18 [TestNG-PoolService-1] LogUtils - ❌Test case loginSuccess is failed.
+[ERROR] 28-09-2025 16:11:18 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: FAIL. Vẫn đang ở trang Login expected [false] but found [true]
+[INFO] 28-09-2025 16:11:19 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProvider
+[INFO] 28-09-2025 16:11:20 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:11:20 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:11:20 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:11:20 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:11:21 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 28-09-2025 16:11:21 [main] LogUtils - ✅Test case loginSuccessFromDataProvider is passed.
+[INFO] 28-09-2025 16:11:22 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProvider
+[INFO] 28-09-2025 16:11:23 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:11:23 [main] LogUtils - Set text admin2@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:11:23 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:11:23 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:11:33 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 28-09-2025 16:11:33 [main] LogUtils - ❌Test case loginSuccessFromDataProvider is failed.
+[ERROR] 28-09-2025 16:11:33 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 28-09-2025 16:11:34 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProvider
+[INFO] 28-09-2025 16:11:35 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:11:35 [main] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:11:35 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:11:35 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:11:46 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 28-09-2025 16:11:46 [main] LogUtils - ❌Test case loginSuccessFromDataProvider is failed.
+[ERROR] 28-09-2025 16:11:46 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 28-09-2025 16:11:47 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProvider
+[INFO] 28-09-2025 16:11:47 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:11:47 [main] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:11:47 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:11:47 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:11:58 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 28-09-2025 16:11:58 [main] LogUtils - ❌Test case loginSuccessFromDataProvider is failed.
+[ERROR] 28-09-2025 16:11:58 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 28-09-2025 16:11:59 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProvider
+[INFO] 28-09-2025 16:11:59 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:11:59 [main] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:11:59 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:11:59 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:10 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 28-09-2025 16:12:10 [main] LogUtils - ❌Test case loginSuccessFromDataProvider is failed.
+[ERROR] 28-09-2025 16:12:10 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 28-09-2025 16:12:11 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProviderHashtable
+[INFO] 28-09-2025 16:12:11 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:11 [main] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:11 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:12 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:12 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 28-09-2025 16:12:12 [main] LogUtils - ❌Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 28-09-2025 16:12:12 [main] LogUtils - java.lang.AssertionError: FAIL. Vẫn đang ở trang Login expected [false] but found [true]
+[INFO] 28-09-2025 16:12:13 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProviderHashtable
+[INFO] 28-09-2025 16:12:14 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:14 [main] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:14 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:14 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:14 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 28-09-2025 16:12:14 [main] LogUtils - ❌Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 28-09-2025 16:12:14 [main] LogUtils - java.lang.AssertionError: FAIL. Vẫn đang ở trang Login expected [false] but found [true]
+[INFO] 28-09-2025 16:12:15 [main] LogUtils - ▶Bắt đầu chạy test case: loginSuccessFromDataProviderHashtable
+[INFO] 28-09-2025 16:12:16 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:16 [main] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:16 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:16 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:16 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 28-09-2025 16:12:16 [main] LogUtils - ❌Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 28-09-2025 16:12:16 [main] LogUtils - java.lang.AssertionError: FAIL. Vẫn đang ở trang Login expected [false] but found [true]
+[INFO] 28-09-2025 16:12:18 [main] LogUtils - ▶Bắt đầu chạy test case: loginFailWithEmailInvalid
+[INFO] 28-09-2025 16:12:18 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:18 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:18 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:18 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:19 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 28-09-2025 16:12:19 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 28-09-2025 16:12:19 [main] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 28-09-2025 16:12:19 [main] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 28-09-2025 16:12:19 [main] LogUtils - ✅Test case loginFailWithEmailInvalid is passed.
+[INFO] 28-09-2025 16:12:20 [main] LogUtils - ▶Bắt đầu chạy test case: loginFailWithPasswordInvalid
+[INFO] 28-09-2025 16:12:20 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:20 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:20 [main] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:20 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:21 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 28-09-2025 16:12:21 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 28-09-2025 16:12:21 [main] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 28-09-2025 16:12:21 [main] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 28-09-2025 16:12:21 [main] LogUtils - ✅Test case loginFailWithPasswordInvalid is passed.
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - ▶Bắt đầu chạy test case: loginFailWithEmailNull
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - Assert equals: The Email Address field is required. and The Email Address field is required.
+[INFO] 28-09-2025 16:12:22 [main] LogUtils - ✅Test case loginFailWithEmailNull is passed.
+[INFO] 28-09-2025 16:12:23 [main] LogUtils - ▶Bắt đầu chạy test case: loginFailWithPasswordNull
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - Assert equals: The Password field is required. and The Password field is required.
+[INFO] 28-09-2025 16:12:24 [main] LogUtils - ✅Test case loginFailWithPasswordNull is passed.
+[INFO] 28-09-2025 16:12:25 [main] LogUtils - ▶Bắt đầu chạy test case: loginFailWithEmailNullAndPasswordNull
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][1]
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - ✅Test case loginFailWithEmailNullAndPasswordNull is passed.
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - ⭕Kết thúc bộ test: Sun Sep 28 16:12:26 ICT 2025
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Test total: 14
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Test passed total: 6
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Test failed total: 8
+[INFO] 28-09-2025 16:12:26 [main] LogUtils - Test skipped total: 0

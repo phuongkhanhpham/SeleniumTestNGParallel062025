@@ -2,7 +2,9 @@ package com.anhtester.keywords;
 
 import com.anhtester.drivers.DriverManager;
 import com.anhtester.helpers.PropertiesHelper;
+import com.anhtester.reports.ExtentTestManager;
 import com.anhtester.utils.LogUtils;
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -185,6 +187,7 @@ public class WebUI {
         DriverManager.getDriver().get(url);
         sleep(STEP_TIME);
         LogUtils.info("\uD83C\uDF10 Open URL:  " + url);
+        ExtentTestManager.logMessage(Status.PASS, "Open URL:  " + url);
     }
 
     public static void clickElement(By by) {
@@ -192,6 +195,7 @@ public class WebUI {
         sleep(STEP_TIME);
         getWebElement(by).click();
         LogUtils.info("\uD83D\uDC49 Click on element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Click on element " + by);
     }
 
     public static void clickElement(By by, int timeout) {
@@ -199,6 +203,7 @@ public class WebUI {
         sleep(STEP_TIME);
         getWebElement(by).click();
         LogUtils.info("\uD83D\uDC49 Click on element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Click on element " + by);
     }
 
     public static void clearText(By by) {
@@ -206,6 +211,7 @@ public class WebUI {
         sleep(STEP_TIME);
         getWebElement(by).clear();
         LogUtils.info("Clear text on element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Clear text on element " + by);
     }
 
     public static void setText(By by, String value) {
@@ -213,29 +219,36 @@ public class WebUI {
         sleep(STEP_TIME);
         getWebElement(by).sendKeys(value);
         LogUtils.info("Set text " + value + " on element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Set text " + value + " on element " + by);
     }
 
     public static String getElementText(By by) {
         waitForElementVisible(by);
         LogUtils.info("Get text of element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Get text of element " + by);
         String text = getWebElement(by).getText();
         LogUtils.info("==> TEXT: " + text);
+        ExtentTestManager.logMessage(Status.INFO, "==> TEXT: " + text);
         return text; //Trả về một giá trị kiểu String
     }
 
     public static String getElementAttribute(By by, String attributeName) {
         waitForElementVisible(by);
         LogUtils.info("Get attribute of element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Get attribute of element " + by);
         String value = getWebElement(by).getAttribute(attributeName);
         LogUtils.info("==> Attribute value: " + value);
+        ExtentTestManager.logMessage(Status.INFO, "==> Attribute value: " + value);
         return value;
     }
 
     public static String getElementCssValue(By by, String cssPropertyName) {
         waitForElementVisible(by);
         LogUtils.info("Get CSS value " + cssPropertyName + " of element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Get CSS value " + cssPropertyName + " of element " + by);
         String value = getWebElement(by).getCssValue(cssPropertyName);
         LogUtils.info("==> CSS value: " + value);
+        ExtentTestManager.logMessage(Status.INFO, "==> CSS value: " + value);
         return value;
     }
 
@@ -243,6 +256,7 @@ public class WebUI {
         waitForPageLoaded();
         getWebElement(by).sendKeys(value, key);
         LogUtils.info("Set text: " + value + " on element " + by);
+        ExtentTestManager.logMessage(Status.PASS, "Set text: " + value + " on element " + by);
     }
 
     public static void scrollToElement(By by) {
@@ -406,6 +420,7 @@ public class WebUI {
     public static boolean verifyEquals(Object actual, Object expected) {
         waitForPageLoaded();
         LogUtils.info("Verify equals: " + actual + " and " + expected);
+        ExtentTestManager.logMessage(Status.INFO, "Verify equals: " + actual + " and " + expected);
         boolean check = actual.equals(expected);
         return check;
     }
@@ -413,12 +428,14 @@ public class WebUI {
     public static void assertEquals(Object actual, Object expected, String message) {
         waitForPageLoaded();
         LogUtils.info("Assert equals: " + actual + " and " + expected);
+        ExtentTestManager.logMessage(Status.INFO, "Assert equals: " + actual + " and " + expected);
         Assert.assertEquals(actual, expected, message);
     }
 
     public static boolean verifyContains(String actual, String expected) {
         waitForPageLoaded();
         LogUtils.info("Verify contains: " + actual + " and " + expected);
+        ExtentTestManager.logMessage(Status.INFO, "Verify contains: " + actual + " and " + expected);
         boolean check = actual.contains(expected);
         return check;
     }
@@ -426,6 +443,7 @@ public class WebUI {
     public static void assertContains(String actual, String expected, String message) {
         waitForPageLoaded();
         LogUtils.info("Assert contains: " + actual + " and " + expected);
+        ExtentTestManager.logMessage(Status.INFO, "Assert contains: " + actual + " and " + expected);
         boolean check = actual.contains(expected);
         Assert.assertTrue(check, message);
     }
@@ -433,6 +451,7 @@ public class WebUI {
     public static void assertNotContains(String actual, String expected, String message) {
         waitForPageLoaded();
         LogUtils.info("Assert NOT contains: " + actual + " and " + expected);
+        ExtentTestManager.logMessage(Status.INFO, "Assert NOT contains: " + actual + " and " + expected);
         boolean check = actual.contains(expected);
         Assert.assertFalse(check, message);
     }
