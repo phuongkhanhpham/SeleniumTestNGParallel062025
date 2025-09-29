@@ -385,3 +385,681 @@
 [INFO] 28-09-2025 16:12:26 [main] LogUtils - Test passed total: 6
 [INFO] 28-09-2025 16:12:26 [main] LogUtils - Test failed total: 8
 [INFO] 28-09-2025 16:12:26 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 19:06:11 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 19:06:11 ICT 2025
+[INFO] 29-09-2025 19:06:13 [TestNG-PoolService-1] LogUtils - ?B?t ??u ch?y test case: loginSuccess
+[INFO] 29-09-2025 19:06:15 [TestNG-PoolService-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:06:15 [TestNG-PoolService-1] LogUtils - Set text admin@example1.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:06:15 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:06:15 [TestNG-PoolService-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:06:15 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 19:06:15 [TestNG-PoolService-1] LogUtils - ?Test case loginSuccess is failed.
+[ERROR] 29-09-2025 19:06:15 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 19:06:16 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 19:06:16 ICT 2025
+[INFO] 29-09-2025 19:06:16 [main] LogUtils - Test total: 1
+[INFO] 29-09-2025 19:06:16 [main] LogUtils - Test passed total: 0
+[INFO] 29-09-2025 19:06:16 [main] LogUtils - Test failed total: 1
+[INFO] 29-09-2025 19:06:16 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 19:13:54 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 19:13:54 ICT 2025
+[INFO] 29-09-2025 19:13:55 [TestNG-PoolService-1] LogUtils - ?B?t ??u ch?y test case: loginSuccess
+[INFO] 29-09-2025 19:13:59 [TestNG-PoolService-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:13:59 [TestNG-PoolService-1] LogUtils - Set text admin@example1.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:13:59 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:13:59 [TestNG-PoolService-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:13:59 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 19:13:59 [TestNG-PoolService-1] LogUtils - ?Test case loginSuccess is failed.
+[ERROR] 29-09-2025 19:13:59 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 19:14:02 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 19:14:02 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:02 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:02 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:02 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:14:04 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 29-09-2025 19:14:04 [main] LogUtils - ?Test case loginSuccessFromDataProvider is passed.
+[INFO] 29-09-2025 19:14:05 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 19:14:05 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:05 [main] LogUtils - Set text admin2@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:05 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:06 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:14:16 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 19:14:16 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 19:14:16 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 19:14:17 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 19:14:18 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:18 [main] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:18 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:18 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:14:28 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 19:14:28 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 19:14:28 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 19:14:30 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 19:14:30 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:30 [main] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:30 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:30 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:14:40 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 19:14:40 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 19:14:40 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 19:14:42 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 19:14:42 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:42 [main] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:42 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:42 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:14:53 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 19:14:53 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 19:14:53 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 19:14:54 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 19:14:55 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:55 [main] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:55 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:55 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:14:55 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 19:14:55 [main] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 19:14:55 [main] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 19:14:57 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 19:14:57 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:57 [main] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:57 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:58 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:14:58 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 19:14:58 [main] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 19:14:58 [main] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 19:14:59 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 19:14:59 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:14:59 [main] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:14:59 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:14:59 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:15:00 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 19:15:00 [main] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 19:15:00 [main] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 19:15:01 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailInvalid
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 29-09-2025 19:15:02 [main] LogUtils - ?Test case loginFailWithEmailInvalid is passed.
+[INFO] 29-09-2025 19:15:03 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordInvalid
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 29-09-2025 19:15:04 [main] LogUtils - ?Test case loginFailWithPasswordInvalid is passed.
+[INFO] 29-09-2025 19:15:05 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNull
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - Assert equals: The Email Address field is required. and The Email Address field is required.
+[INFO] 29-09-2025 19:15:06 [main] LogUtils - ?Test case loginFailWithEmailNull is passed.
+[INFO] 29-09-2025 19:15:07 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordNull
+[INFO] 29-09-2025 19:15:07 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:15:07 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:15:08 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:15:08 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:15:08 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 19:15:08 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 19:15:08 [main] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 29-09-2025 19:15:08 [main] LogUtils - Assert equals: The Password field is required. and The Password field is required.
+[INFO] 29-09-2025 19:15:08 [main] LogUtils - ?Test case loginFailWithPasswordNull is passed.
+[INFO] 29-09-2025 19:15:09 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNullAndPasswordNull
+[INFO] 29-09-2025 19:15:09 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 19:15:09 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 19:15:09 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 19:15:09 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][1]
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - ?Test case loginFailWithEmailNullAndPasswordNull is passed.
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 19:15:10 ICT 2025
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Test total: 14
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Test passed total: 6
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Test failed total: 8
+[INFO] 29-09-2025 19:15:10 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 21:35:46 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 21:35:45 ICT 2025
+[INFO] 29-09-2025 21:35:48 [TestNG-PoolService-1] LogUtils - ?B?t ??u ch?y test case: loginSuccess
+[INFO] 29-09-2025 21:35:49 [TestNG-PoolService-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:35:49 [TestNG-PoolService-1] LogUtils - Set text admin@example1.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:35:49 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:35:49 [TestNG-PoolService-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:35:49 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:35:49 [TestNG-PoolService-1] LogUtils - ?Test case loginSuccess is failed.
+[ERROR] 29-09-2025 21:35:49 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:35:52 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:35:53 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:35:53 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:35:53 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:35:53 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:35:54 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 29-09-2025 21:35:54 [main] LogUtils - ?Test case loginSuccessFromDataProvider is passed.
+[INFO] 29-09-2025 21:35:55 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:35:57 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:35:57 [main] LogUtils - Set text admin2@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:35:57 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:35:57 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:08 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:36:08 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:36:08 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:36:09 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:36:09 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:09 [main] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:09 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:09 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:20 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:36:20 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:36:20 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:36:21 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:36:21 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:21 [main] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:21 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:22 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:32 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:36:32 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:36:32 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:36:33 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:36:35 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:35 [main] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:35 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:35 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:45 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:36:45 [main] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:36:45 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:36:46 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 21:36:47 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:47 [main] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:47 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:47 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:47 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:36:47 [main] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:36:47 [main] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:36:49 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 21:36:49 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:49 [main] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:49 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:50 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:50 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:36:50 [main] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:36:50 [main] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:36:51 [main] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 21:36:51 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:52 [main] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:52 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:52 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:52 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:36:52 [main] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:36:52 [main] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:36:53 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailInvalid
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 29-09-2025 21:36:54 [main] LogUtils - ?Test case loginFailWithEmailInvalid is passed.
+[INFO] 29-09-2025 21:36:55 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordInvalid
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 29-09-2025 21:36:56 [main] LogUtils - ?Test case loginFailWithPasswordInvalid is passed.
+[INFO] 29-09-2025 21:36:57 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNull
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - Assert equals: The Email Address field is required. and The Email Address field is required.
+[INFO] 29-09-2025 21:36:58 [main] LogUtils - ?Test case loginFailWithEmailNull is passed.
+[INFO] 29-09-2025 21:36:59 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordNull
+[INFO] 29-09-2025 21:36:59 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:36:59 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:36:59 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:37:00 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:37:00 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:37:00 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:37:00 [main] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 29-09-2025 21:37:00 [main] LogUtils - Assert equals: The Password field is required. and The Password field is required.
+[INFO] 29-09-2025 21:37:00 [main] LogUtils - ?Test case loginFailWithPasswordNull is passed.
+[INFO] 29-09-2025 21:37:01 [main] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNullAndPasswordNull
+[INFO] 29-09-2025 21:37:01 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:37:01 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:37:01 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:37:01 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][1]
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - ?Test case loginFailWithEmailNullAndPasswordNull is passed.
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 21:37:02 ICT 2025
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Test total: 14
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Test passed total: 6
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Test failed total: 8
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 21:37:02 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 21:37:02 ICT 2025
+[INFO] 29-09-2025 21:37:03 [main] LogUtils - ?B?t ??u ch?y test case: testAddNewCustomer
+[INFO] 29-09-2025 21:37:03 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:37:04 [main] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:37:04 [main] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:37:04 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:37:04 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:37:04 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:37:05 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 29-09-2025 21:37:06 [main] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:37:06 [main] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:37:06 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:37:06 [main] LogUtils - ==> TEXT: Customers Summary
+[INFO] 29-09-2025 21:37:06 [main] LogUtils - Assert equals: Customers Summary and Customers Summary
+[INFO] 29-09-2025 21:37:06 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:37:06 [main] LogUtils - ==> TEXT: 1438
+[INFO] 29-09-2025 21:37:07 [main] LogUtils - ? Click on element By.xpath: //a[normalize-space()='New Customer']
+[INFO] 29-09-2025 21:37:07 [main] LogUtils - Set text Anh Tester 250923001 on element By.xpath: //input[@id='company']
+[INFO] 29-09-2025 21:37:07 [main] LogUtils - Set text 10 on element By.xpath: //input[@id='vat']
+[INFO] 29-09-2025 21:37:07 [main] LogUtils - Set text 0123456789 on element By.xpath: //input[@id='phonenumber']
+[INFO] 29-09-2025 21:37:07 [main] LogUtils - Set text https://anhtester.com/ on element By.xpath: //input[@id='website']
+[INFO] 29-09-2025 21:37:07 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:37:07 [main] LogUtils - Set text VIP on element By.xpath: //button[@data-id='groups_in[]']/following-sibling::div//input
+[INFO] 29-09-2025 21:37:08 [main] LogUtils - ? Click on element By.xpath: //span[text()='VIP']
+[INFO] 29-09-2025 21:37:08 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:37:08 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='default_language']
+[INFO] 29-09-2025 21:37:08 [main] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Vietnamese']
+[INFO] 29-09-2025 21:37:08 [main] LogUtils - Set text Ha Noi on element By.xpath: //textarea[@id='address']
+[INFO] 29-09-2025 21:37:08 [main] LogUtils - Set text Ha Noi on element By.xpath: //input[@id='city']
+[INFO] 29-09-2025 21:37:09 [main] LogUtils - Set text Hoan Kiem on element By.xpath: //input[@id='state']
+[INFO] 29-09-2025 21:37:09 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='zip']
+[INFO] 29-09-2025 21:37:09 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='country']
+[INFO] 29-09-2025 21:37:09 [main] LogUtils - Set text Vietnam on element By.xpath: //button[@data-id='country']/following-sibling::div//input
+[INFO] 29-09-2025 21:37:09 [main] LogUtils - ? Click on element By.xpath: //span[text()='Vietnam']
+[INFO] 29-09-2025 21:37:09 [main] LogUtils - ? Click on element By.xpath: //div[@id='profile-save-section']/button[normalize-space()='Save']
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - checkElementExist: true --- By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Get text of element By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - ==> TEXT: Profile
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Assert equals: Profile and Profile
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Assert equals: Anh Tester 250923001 and Anh Tester 250923001
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Assert equals: 10 and 10
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Assert equals: 0123456789 and 0123456789
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Assert equals: https://anhtester.com/ and https://anhtester.com/
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Assert equals: VIP and VIP
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Assert equals: Vietnamese and Vietnamese
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - ==> TEXT: 1439
+[INFO] 29-09-2025 21:37:10 [main] LogUtils - ?Test case testAddNewCustomer is passed.
+[INFO] 29-09-2025 21:37:11 [main] LogUtils - ?B?t ??u ch?y test case: testAddNewCustomer_SearchInTable
+[INFO] 29-09-2025 21:37:12 [main] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:37:12 [main] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:37:12 [main] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:37:12 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:37:12 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:37:12 [main] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - ==> TEXT: Customers Summary
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - Assert equals: Customers Summary and Customers Summary
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:37:13 [main] LogUtils - ==> TEXT: 1439
+[INFO] 29-09-2025 21:37:14 [main] LogUtils - ? Click on element By.xpath: //a[normalize-space()='New Customer']
+[INFO] 29-09-2025 21:37:14 [main] LogUtils - Set text Anh Tester 250804003 on element By.xpath: //input[@id='company']
+[INFO] 29-09-2025 21:37:14 [main] LogUtils - Set text 10 on element By.xpath: //input[@id='vat']
+[INFO] 29-09-2025 21:37:14 [main] LogUtils - Set text 0123456789 on element By.xpath: //input[@id='phonenumber']
+[INFO] 29-09-2025 21:37:14 [main] LogUtils - Set text https://anhtester.com/ on element By.xpath: //input[@id='website']
+[INFO] 29-09-2025 21:37:14 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:37:14 [main] LogUtils - Set text VIP on element By.xpath: //button[@data-id='groups_in[]']/following-sibling::div//input
+[INFO] 29-09-2025 21:37:15 [main] LogUtils - ? Click on element By.xpath: //span[text()='VIP']
+[INFO] 29-09-2025 21:37:15 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='default_language']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Vietnamese']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - Set text Ha Noi on element By.xpath: //textarea[@id='address']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - Set text Ha Noi on element By.xpath: //input[@id='city']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - Set text Hoan Kiem on element By.xpath: //input[@id='state']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='zip']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - ? Click on element By.xpath: //button[@data-id='country']
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - Set text Vietnam on element By.xpath: //button[@data-id='country']/following-sibling::div//input
+[INFO] 29-09-2025 21:37:16 [main] LogUtils - ? Click on element By.xpath: //span[text()='Vietnam']
+[INFO] 29-09-2025 21:37:17 [main] LogUtils - ? Click on element By.xpath: //div[@id='profile-save-section']/button[normalize-space()='Save']
+[INFO] 29-09-2025 21:37:17 [main] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:37:18 [main] LogUtils - Set text Anh Tester 250804003 on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 29-09-2025 21:37:20 [main] LogUtils - Get text of element By.xpath: //table[@id='clients']//tbody/tr[1]/td[3]/a
+[INFO] 29-09-2025 21:37:20 [main] LogUtils - ==> TEXT: Anh Tester 250804003
+[INFO] 29-09-2025 21:37:20 [main] LogUtils - Assert equals: Anh Tester 250804003 and Anh Tester 250804003
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - ? Click on element By.xpath: //table[@id='clients']//tbody/tr[1]/td[3]/a
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - checkElementExist: true --- By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Get text of element By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - ==> TEXT: Profile
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Assert equals: Profile and Profile
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Assert equals: Anh Tester 250804003 and Anh Tester 250804003
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Assert equals: 10 and 10
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Assert equals: 0123456789 and 0123456789
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Assert equals: https://anhtester.com/ and https://anhtester.com/
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Assert equals: VIP and VIP
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Assert equals: Vietnamese and Vietnamese
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - ==> TEXT: 1440
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - ?Test case testAddNewCustomer_SearchInTable is passed.
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 21:37:21 ICT 2025
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Test total: 16
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Test passed total: 8
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Test failed total: 8
+[INFO] 29-09-2025 21:37:21 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 21:44:40 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 21:44:39 ICT 2025
+[INFO] 29-09-2025 21:44:42 [TestNG-PoolService-1] LogUtils - ?B?t ??u ch?y test case: loginSuccess
+[INFO] 29-09-2025 21:44:42 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[ERROR] 29-09-2025 21:44:42 [TestNG-PoolService-1] LogUtils - ?Test case loginSuccess is failed.
+[ERROR] 29-09-2025 21:44:42 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:44:42 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[ERROR] 29-09-2025 21:44:42 [TestNG-PoolService-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:44 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[ERROR] 29-09-2025 21:44:44 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:44:44 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:44 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[ERROR] 29-09-2025 21:44:44 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:44:44 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:45 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[ERROR] 29-09-2025 21:44:45 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:44:45 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:45 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[ERROR] 29-09-2025 21:44:45 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:44:45 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:47 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 21:44:47 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[ERROR] 29-09-2025 21:44:47 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:44:47 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[ERROR] 29-09-2025 21:44:47 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:44:47 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:48 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailInvalid
+[ERROR] 29-09-2025 21:44:48 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithEmailInvalid is failed.
+[ERROR] 29-09-2025 21:44:48 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:48 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[ERROR] 29-09-2025 21:44:48 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:44:48 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:50 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordInvalid
+[ERROR] 29-09-2025 21:44:50 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithPasswordInvalid is failed.
+[ERROR] 29-09-2025 21:44:50 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:50 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNull
+[ERROR] 29-09-2025 21:44:50 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginFailWithEmailNull is failed.
+[ERROR] 29-09-2025 21:44:50 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:51 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordNull
+[ERROR] 29-09-2025 21:44:51 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithPasswordNull is failed.
+[ERROR] 29-09-2025 21:44:51 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:51 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNullAndPasswordNull
+[ERROR] 29-09-2025 21:44:51 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginFailWithEmailNullAndPasswordNull is failed.
+[ERROR] 29-09-2025 21:44:51 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:52 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 21:44:52 ICT 2025
+[INFO] 29-09-2025 21:44:52 [main] LogUtils - Test total: 14
+[INFO] 29-09-2025 21:44:52 [main] LogUtils - Test passed total: 0
+[INFO] 29-09-2025 21:44:52 [main] LogUtils - Test failed total: 14
+[INFO] 29-09-2025 21:44:52 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 21:44:52 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 21:44:52 ICT 2025
+[INFO] 29-09-2025 21:44:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - ?B?t ??u ch?y test case: testAddNewCustomer_SearchInTable
+[ERROR] 29-09-2025 21:44:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - ?Test case testAddNewCustomer_SearchInTable is failed.
+[ERROR] 29-09-2025 21:44:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:53 [TestNG-test-Customer Test With Firefox-1] LogUtils - ?B?t ??u ch?y test case: testAddNewCustomer
+[ERROR] 29-09-2025 21:44:53 [TestNG-test-Customer Test With Firefox-1] LogUtils - ?Test case testAddNewCustomer is failed.
+[ERROR] 29-09-2025 21:44:53 [TestNG-test-Customer Test With Firefox-1] LogUtils - java.lang.RuntimeException: java.io.IOException: No encoder for format Format{dimY:864,fixedFrameRate:true,frameRate:30,mimeType:video/avi,dimX:1536,dataClass:class [B,dimZ:24,mediaType:VIDEO,encoding:tscc}
+[INFO] 29-09-2025 21:44:53 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 21:44:53 ICT 2025
+[INFO] 29-09-2025 21:44:53 [main] LogUtils - Test total: 16
+[INFO] 29-09-2025 21:44:53 [main] LogUtils - Test passed total: 0
+[INFO] 29-09-2025 21:44:53 [main] LogUtils - Test failed total: 16
+[INFO] 29-09-2025 21:44:53 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 21:49:54 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 21:49:54 ICT 2025
+[INFO] 29-09-2025 21:49:56 [TestNG-PoolService-1] LogUtils - ?B?t ??u ch?y test case: loginSuccess
+[INFO] 29-09-2025 21:49:57 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[ERROR] 29-09-2025 21:49:57 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:49:57 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.NullPointerException: Cannot invoke "org.monte.media.MovieWriter.addTrack(org.monte.media.Format)" because "this.w" is null
+[INFO] 29-09-2025 21:49:58 [TestNG-PoolService-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:49:58 [TestNG-PoolService-1] LogUtils - Set text admin@example1.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:49:58 [TestNG-PoolService-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:49:58 [TestNG-PoolService-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:49:58 [TestNG-PoolService-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:49:58 [TestNG-PoolService-1] LogUtils - ?Test case loginSuccess is failed.
+[ERROR] 29-09-2025 21:49:58 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:49:58 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:49:59 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:49:59 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text admin2@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:49:59 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:49:59 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:00 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 21:50:00 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:00 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:00 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:00 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:01 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:50:01 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:50:01 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:50:03 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 21:50:03 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:03 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:03 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:03 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:04 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:50:04 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:50:04 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:50:05 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProviderHashtable
+[INFO] 29-09-2025 21:50:05 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:05 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:06 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:06 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:06 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/authentication and authentication
+[ERROR] 29-09-2025 21:50:06 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginSuccessFromDataProviderHashtable is failed.
+[ERROR] 29-09-2025 21:50:06 [TestNG-test-Login Test With Chrome-1] LogUtils - java.lang.AssertionError: FAIL. V?n ?ang ? trang Login expected [false] but found [true]
+[INFO] 29-09-2025 21:50:07 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailInvalid
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-2] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 29-09-2025 21:50:09 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithEmailInvalid is passed.
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordInvalid
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text admin3@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:11 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:12 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:50:12 [TestNG-test-Login Test With Chrome-1] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:50:12 [TestNG-test-Login Test With Chrome-1] LogUtils - ==> TEXT: Invalid email or password
+[INFO] 29-09-2025 21:50:12 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert equals: Invalid email or password and Invalid email or password
+[INFO] 29-09-2025 21:50:12 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithPasswordInvalid is passed.
+[INFO] 29-09-2025 21:50:13 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNull
+[INFO] 29-09-2025 21:50:13 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:13 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:14 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text 1234567 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:14 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:14 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:50:14 [TestNG-test-Login Test With Chrome-1] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:50:14 [TestNG-test-Login Test With Chrome-1] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 21:50:14 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert equals: The Email Address field is required. and The Email Address field is required.
+[INFO] 29-09-2025 21:50:14 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithEmailNull is passed.
+[INFO] 29-09-2025 21:50:15 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithPasswordNull
+[INFO] 29-09-2025 21:50:15 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:15 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:15 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:15 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:16 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:50:16 [TestNG-test-Login Test With Chrome-1] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')]
+[INFO] 29-09-2025 21:50:16 [TestNG-test-Login Test With Chrome-1] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 29-09-2025 21:50:16 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert equals: The Password field is required. and The Password field is required.
+[INFO] 29-09-2025 21:50:16 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithPasswordNull is passed.
+[INFO] 29-09-2025 21:50:17 [TestNG-test-Login Test With Chrome-1] LogUtils - ?B?t ??u ch?y test case: loginFailWithEmailNullAndPasswordNull
+[INFO] 29-09-2025 21:50:17 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:17 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:17 [TestNG-test-Login Test With Chrome-1] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:17 [TestNG-test-Login Test With Chrome-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - Assert contains: https://crm.anhtester.com/admin/authentication and authentication
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][1]
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - ==> TEXT: The Password field is required.
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - Get text of element By.xpath: //div[contains(@class, 'alert-danger')][2]
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - ==> TEXT: The Email Address field is required.
+[INFO] 29-09-2025 21:50:18 [TestNG-test-Login Test With Chrome-1] LogUtils - ?Test case loginFailWithEmailNullAndPasswordNull is passed.
+[INFO] 29-09-2025 21:50:22 [TestNG-test-Login Test With Chrome-2] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:50:22 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:50:22 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:50:23 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:50:23 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:23 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text admin4@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:23 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:24 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:34 [TestNG-test-Login Test With Chrome-2] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:50:34 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:50:34 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:50:35 [TestNG-test-Login Test With Chrome-2] LogUtils - ?B?t ??u ch?y test case: loginSuccessFromDataProvider
+[INFO] 29-09-2025 21:50:35 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:35 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text admin5@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:35 [TestNG-test-Login Test With Chrome-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:36 [TestNG-test-Login Test With Chrome-2] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:46 [TestNG-test-Login Test With Chrome-2] LogUtils - Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[ERROR] 29-09-2025 21:50:46 [TestNG-test-Login Test With Chrome-2] LogUtils - ?Test case loginSuccessFromDataProvider is failed.
+[ERROR] 29-09-2025 21:50:46 [TestNG-test-Login Test With Chrome-2] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //span[normalize-space()='Dashboard']
+[INFO] 29-09-2025 21:50:47 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 21:50:47 ICT 2025
+[INFO] 29-09-2025 21:50:47 [main] LogUtils - Test total: 14
+[INFO] 29-09-2025 21:50:47 [main] LogUtils - Test passed total: 5
+[INFO] 29-09-2025 21:50:47 [main] LogUtils - Test failed total: 9
+[INFO] 29-09-2025 21:50:47 [main] LogUtils - Test skipped total: 0
+[INFO] 29-09-2025 21:50:47 [main] LogUtils - ?Setup môi tr??ng onStart: Mon Sep 29 21:50:47 ICT 2025
+[INFO] 29-09-2025 21:50:48 [TestNG-test-Customer Test With Firefox-1] LogUtils - ?B?t ??u ch?y test case: testAddNewCustomer
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-2] LogUtils - ?B?t ??u ch?y test case: testAddNewCustomer_SearchInTable
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-2] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-1] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-2] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-1] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:49 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 29-09-2025 21:50:51 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:51 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - ==> TEXT: Customers Summary
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: Customers Summary and Customers Summary
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:50:52 [TestNG-test-Customer Test With Firefox-1] LogUtils - ==> TEXT: 1440
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - ==> TEXT: Customers Summary
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: Customers Summary and Customers Summary
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-2] LogUtils - ==> TEXT: 1440
+[INFO] 29-09-2025 21:50:53 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //a[normalize-space()='New Customer']
+[INFO] 29-09-2025 21:50:55 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //a[normalize-space()='New Customer']
+[INFO] 29-09-2025 21:50:55 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text Anh Tester 250923001 on element By.xpath: //input[@id='company']
+[INFO] 29-09-2025 21:50:55 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text Anh Tester 250804003 on element By.xpath: //input[@id='company']
+[INFO] 29-09-2025 21:50:55 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text 10 on element By.xpath: //input[@id='vat']
+[INFO] 29-09-2025 21:50:55 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text 10 on element By.xpath: //input[@id='vat']
+[INFO] 29-09-2025 21:50:55 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text 0123456789 on element By.xpath: //input[@id='phonenumber']
+[INFO] 29-09-2025 21:50:56 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text 0123456789 on element By.xpath: //input[@id='phonenumber']
+[INFO] 29-09-2025 21:50:56 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text https://anhtester.com/ on element By.xpath: //input[@id='website']
+[INFO] 29-09-2025 21:50:56 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text https://anhtester.com/ on element By.xpath: //input[@id='website']
+[INFO] 29-09-2025 21:50:56 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:50:56 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text VIP on element By.xpath: //button[@data-id='groups_in[]']/following-sibling::div//input
+[INFO] 29-09-2025 21:50:56 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:50:56 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text VIP on element By.xpath: //button[@data-id='groups_in[]']/following-sibling::div//input
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //span[text()='VIP']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //span[text()='VIP']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //button[@data-id='default_language']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Vietnamese']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //button[@data-id='default_language']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text Ha Noi on element By.xpath: //textarea[@id='address']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Vietnamese']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text Ha Noi on element By.xpath: //input[@id='city']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text Ha Noi on element By.xpath: //textarea[@id='address']
+[INFO] 29-09-2025 21:50:57 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text Hoan Kiem on element By.xpath: //input[@id='state']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='zip']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text Ha Noi on element By.xpath: //input[@id='city']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text Hoan Kiem on element By.xpath: //input[@id='state']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //button[@data-id='country']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='zip']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-1] LogUtils - Set text Vietnam on element By.xpath: //button[@data-id='country']/following-sibling::div//input
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //button[@data-id='country']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //span[text()='Vietnam']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text Vietnam on element By.xpath: //button[@data-id='country']/following-sibling::div//input
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //span[text()='Vietnam']
+[INFO] 29-09-2025 21:50:58 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //div[@id='profile-save-section']/button[normalize-space()='Save']
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - checkElementExist: true --- By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //div[@id='profile-save-section']/button[normalize-space()='Save']
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Get text of element By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - ==> TEXT: Profile
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: Profile and Profile
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: Anh Tester 250923001 and Anh Tester 250923001
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: 10 and 10
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: 0123456789 and 0123456789
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: https://anhtester.com/ and https://anhtester.com/
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: VIP and VIP
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Assert equals: Vietnamese and Vietnamese
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - ==> TEXT: 1442
+[ERROR] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - ?Test case testAddNewCustomer is failed.
+[ERROR] 29-09-2025 21:50:59 [TestNG-test-Customer Test With Firefox-1] LogUtils - java.lang.AssertionError: The total customer before and after adding new are not matched. expected [1441] but found [1442]
+[INFO] 29-09-2025 21:51:00 [TestNG-test-Customer Test With Firefox-2] LogUtils - Set text Anh Tester 250804003 on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 29-09-2025 21:51:02 [TestNG-test-Customer Test With Firefox-2] LogUtils - Get text of element By.xpath: //table[@id='clients']//tbody/tr[1]/td[3]/a
+[INFO] 29-09-2025 21:51:02 [TestNG-test-Customer Test With Firefox-2] LogUtils - ==> TEXT: Anh Tester 250804003
+[INFO] 29-09-2025 21:51:02 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: Anh Tester 250804003 and Anh Tester 250804003
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //table[@id='clients']//tbody/tr[1]/td[3]/a
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - checkElementExist: true --- By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Get text of element By.xpath: //h4[normalize-space()='Profile']
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - ==> TEXT: Profile
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: Profile and Profile
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: Anh Tester 250804003 and Anh Tester 250804003
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: 10 and 10
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: 0123456789 and 0123456789
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: https://anhtester.com/ and https://anhtester.com/
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: VIP and VIP
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Assert equals: Vietnamese and Vietnamese
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - ? Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - ==> TEXT: 1442
+[ERROR] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - ?Test case testAddNewCustomer_SearchInTable is failed.
+[ERROR] 29-09-2025 21:51:03 [TestNG-test-Customer Test With Firefox-2] LogUtils - java.lang.AssertionError: The total customer before and after adding new are not matched. expected [1441] but found [1442]
+[INFO] 29-09-2025 21:51:04 [main] LogUtils - ?K?t thúc b? test: Mon Sep 29 21:51:04 ICT 2025
+[INFO] 29-09-2025 21:51:04 [main] LogUtils - Test total: 16
+[INFO] 29-09-2025 21:51:04 [main] LogUtils - Test passed total: 5
+[INFO] 29-09-2025 21:51:04 [main] LogUtils - Test failed total: 11
+[INFO] 29-09-2025 21:51:04 [main] LogUtils - Test skipped total: 0

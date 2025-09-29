@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Customer Test" verbose="1">
+    <test name="Customer Test With Firefox" parallel="methods" thread-count="2">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.anhtester.Bai33_ExtentReport.testcases.CustomerTest"/>
+        </classes>
+    </test>
+</suite>
