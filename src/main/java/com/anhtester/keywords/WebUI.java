@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.awt.*;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
 import java.util.List;
@@ -123,6 +124,40 @@ public class WebUI {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static void uploadFileWithRobotClass(By elementFileForm, String filePath) {
+        //Click để mở form upload
+        WebUI.clickElement(elementFileForm);
+        WebUI.sleep(2);
+
+        // Khởi tạo Robot class
+        Robot rb = null;
+        try {
+            rb = new Robot();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+
+        // Copy File path vào Clipboard
+        StringSelection str = new StringSelection(filePath);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
+
+        // Nhấn Control+V để dán
+        rb.keyPress(KeyEvent.VK_CONTROL);
+        rb.keyPress(KeyEvent.VK_V);
+
+        // Xác nhận Control V trên
+        rb.keyRelease(KeyEvent.VK_CONTROL);
+        rb.keyRelease(KeyEvent.VK_V);
+
+        WebUI.sleep(1);
+
+        // Nhấn Enter
+        rb.keyPress(KeyEvent.VK_ENTER);
+        rb.keyRelease(KeyEvent.VK_ENTER);
+
+        WebUI.sleep(2);
     }
 
     public static void logConsole(Object message) {
@@ -438,7 +473,7 @@ public class WebUI {
 
     public static void assertEquals(Object actual, Object expected, String message) {
         waitForPageLoaded();
-        LogUtils.info("Assert equals: " + actual + " and " + expected);
+        LogUtils.info("Assert equals: " + actual + " \uD83D\uDFF0 " + expected);
         ExtentTestManager.logMessage(Status.INFO, "Assert equals: " + actual + " and " + expected);
         Assert.assertEquals(actual, expected, message);
     }

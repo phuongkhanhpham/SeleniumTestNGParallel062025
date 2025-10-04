@@ -1063,3 +1063,157 @@
 [INFO] 29-09-2025 21:51:04 [main] LogUtils - Test passed total: 5
 [INFO] 29-09-2025 21:51:04 [main] LogUtils - Test failed total: 11
 [INFO] 29-09-2025 21:51:04 [main] LogUtils - Test skipped total: 0
+[INFO] 30-09-2025 13:58:46 [main] LogUtils - 🛠Setup môi trường onStart: Tue Sep 30 13:58:45 ICT 2025
+[INFO] 30-09-2025 13:58:48 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithSendkeys
+[INFO] 30-09-2025 13:58:52 [main] LogUtils - 🌐 Open URL:  https://the-internet.herokuapp.com/upload
+[ERROR] 30-09-2025 13:58:54 [main] LogUtils - ❌Test case testUploadFileWithSendkeys is failed.
+[ERROR] 30-09-2025 13:58:54 [main] LogUtils - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\SeleniumJava\SeleniumTestNGParallel062025/datatest/Selenium4_Upload.png
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5be7020f20271dacfa53734d171e6be8, sendKeysToElement {id=f.4CA2C7CB14DE1390B751B9C0892FDF04.d.F5810F785F1F5283C8AFA41C0322F611.e.10, value=[Ljava.lang.CharSequence;@6dbeaef8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\Khanh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51492}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51492/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5be7020f20271dacfa53734d171e6be8)] -> xpath: //input[@id='file-upload']]
+Session ID: 5be7020f20271dacfa53734d171e6be8
+[INFO] 30-09-2025 13:58:55 [main] LogUtils - ⭕Kết thúc bộ test: Tue Sep 30 13:58:55 ICT 2025
+[INFO] 30-09-2025 13:58:55 [main] LogUtils - Test total: 1
+[INFO] 30-09-2025 13:58:55 [main] LogUtils - Test passed total: 0
+[INFO] 30-09-2025 13:58:55 [main] LogUtils - Test failed total: 1
+[INFO] 30-09-2025 13:58:55 [main] LogUtils - Test skipped total: 0
+[INFO] 30-09-2025 14:08:24 [main] LogUtils - 🛠Setup môi trường onStart: Tue Sep 30 14:08:24 ICT 2025
+[INFO] 30-09-2025 14:08:26 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithSendkeys
+[INFO] 30-09-2025 14:08:31 [main] LogUtils - 🌐 Open URL:  https://the-internet.herokuapp.com/upload
+[INFO] 30-09-2025 14:08:33 [main] LogUtils - Set text D:\SeleniumJava\SeleniumTestNGParallel062025\src\test\resources\testdata\image1.png on element By.xpath: //input[@id='file-upload']
+[INFO] 30-09-2025 14:08:37 [main] LogUtils - ✅Test case testUploadFileWithSendkeys is passed.
+[INFO] 30-09-2025 14:08:38 [main] LogUtils - ⭕Kết thúc bộ test: Tue Sep 30 14:08:38 ICT 2025
+[INFO] 30-09-2025 14:08:38 [main] LogUtils - Test total: 1
+[INFO] 30-09-2025 14:08:38 [main] LogUtils - Test passed total: 1
+[INFO] 30-09-2025 14:08:38 [main] LogUtils - Test failed total: 0
+[INFO] 30-09-2025 14:08:38 [main] LogUtils - Test skipped total: 0
+[INFO] 30-09-2025 14:14:14 [main] LogUtils - 🛠Setup môi trường onStart: Tue Sep 30 14:14:13 ICT 2025
+[INFO] 30-09-2025 14:14:15 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithSendkeys
+[INFO] 30-09-2025 14:14:19 [main] LogUtils - 🌐 Open URL:  https://the-internet.herokuapp.com/upload
+[INFO] 30-09-2025 14:14:22 [main] LogUtils - Set text D:\SeleniumJava\SeleniumTestNGParallel062025\src\test\resources\testdata\image1.png on element By.xpath: //input[@id='file-upload']
+[INFO] 30-09-2025 14:14:24 [main] LogUtils - 👉 Click on element By.xpath: //input[@id='file-submit']
+[INFO] 30-09-2025 14:14:26 [main] LogUtils - ✅Test case testUploadFileWithSendkeys is passed.
+[INFO] 30-09-2025 14:14:28 [main] LogUtils - ⭕Kết thúc bộ test: Tue Sep 30 14:14:28 ICT 2025
+[INFO] 30-09-2025 14:14:28 [main] LogUtils - Test total: 1
+[INFO] 30-09-2025 14:14:28 [main] LogUtils - Test passed total: 1
+[INFO] 30-09-2025 14:14:28 [main] LogUtils - Test failed total: 0
+[INFO] 30-09-2025 14:14:28 [main] LogUtils - Test skipped total: 0
+[INFO] 30-09-2025 14:17:20 [main] LogUtils - 🛠Setup môi trường onStart: Tue Sep 30 14:17:19 ICT 2025
+[INFO] 30-09-2025 14:17:21 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithSendkeys
+[INFO] 30-09-2025 14:17:26 [main] LogUtils - 🌐 Open URL:  https://the-internet.herokuapp.com/upload
+[INFO] 30-09-2025 14:17:28 [main] LogUtils - Set text D:\SeleniumJava\SeleniumTestNGParallel062025\src\test\resources\testdata\image2.jpg on element By.xpath: //input[@id='file-upload']
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - 👉 Click on element By.xpath: //input[@id='file-submit']
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - checkElementExist: true --- By.xpath: //h3[text()='File Uploaded!']
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - ✅Test case testUploadFileWithSendkeys is passed.
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - ⭕Kết thúc bộ test: Tue Sep 30 14:17:32 ICT 2025
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - Test total: 1
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - Test passed total: 1
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - Test failed total: 0
+[INFO] 30-09-2025 14:17:32 [main] LogUtils - Test skipped total: 0
+[INFO] 30-09-2025 14:18:15 [main] LogUtils - 🛠Setup môi trường onStart: Tue Sep 30 14:18:14 ICT 2025
+[INFO] 30-09-2025 14:18:16 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithSendkeys
+[INFO] 30-09-2025 14:18:20 [main] LogUtils - 🌐 Open URL:  https://the-internet.herokuapp.com/upload
+[INFO] 30-09-2025 14:18:22 [main] LogUtils - Set text D:\SeleniumJava\SeleniumTestNGParallel062025\src\test\resources\testdata\image2.jpg on element By.xpath: //input[@id='file-upload']
+[INFO] 30-09-2025 14:18:24 [main] LogUtils - checkElementExist: false --- By.xpath: //h3[text()='File Uploaded!']
+[ERROR] 30-09-2025 14:18:24 [main] LogUtils - ❌Test case testUploadFileWithSendkeys is failed.
+[ERROR] 30-09-2025 14:18:24 [main] LogUtils - java.lang.AssertionError: Can not upload file. expected [true] but found [false]
+[INFO] 30-09-2025 14:18:25 [main] LogUtils - ⭕Kết thúc bộ test: Tue Sep 30 14:18:25 ICT 2025
+[INFO] 30-09-2025 14:18:25 [main] LogUtils - Test total: 1
+[INFO] 30-09-2025 14:18:25 [main] LogUtils - Test passed total: 0
+[INFO] 30-09-2025 14:18:25 [main] LogUtils - Test failed total: 1
+[INFO] 30-09-2025 14:18:25 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 09:13:56 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 09:13:55 ICT 2025
+[INFO] 04-10-2025 09:14:02 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithSendkeys
+[INFO] 04-10-2025 09:14:08 [main] LogUtils - 🌐 Open URL:  https://the-internet.herokuapp.com/upload
+[INFO] 04-10-2025 09:14:10 [main] LogUtils - Set text D:\SeleniumJava\SeleniumTestNGParallel062025\src\test\resources\testdata\image2.jpg on element By.xpath: //input[@id='file-upload']
+[INFO] 04-10-2025 09:14:14 [main] LogUtils - 👉 Click on element By.xpath: //input[@id='file-submit']
+[INFO] 04-10-2025 09:14:14 [main] LogUtils - checkElementExist: true --- By.xpath: //h3[text()='File Uploaded!']
+[INFO] 04-10-2025 09:14:14 [main] LogUtils - ✅Test case testUploadFileWithSendkeys is passed.
+[INFO] 04-10-2025 09:14:15 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 09:14:15 ICT 2025
+[INFO] 04-10-2025 09:14:15 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 09:14:15 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 09:14:15 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 09:14:15 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 09:38:31 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 09:38:30 ICT 2025
+[INFO] 04-10-2025 09:38:33 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithRobotClass
+[INFO] 04-10-2025 09:38:39 [main] LogUtils - 👉 Click on element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 04-10-2025 09:38:46 [main] LogUtils - ✅Test case testUploadFileWithRobotClass is passed.
+[INFO] 04-10-2025 09:38:46 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 09:38:46 ICT 2025
+[INFO] 04-10-2025 09:38:46 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 09:38:46 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 09:38:46 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 09:38:46 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 09:39:13 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 09:39:12 ICT 2025
+[INFO] 04-10-2025 09:39:15 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithRobotClass
+[INFO] 04-10-2025 09:39:22 [main] LogUtils - 👉 Click on element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 04-10-2025 09:39:30 [main] LogUtils - ✅Test case testUploadFileWithRobotClass is passed.
+[INFO] 04-10-2025 09:39:31 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 09:39:31 ICT 2025
+[INFO] 04-10-2025 09:39:31 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 09:39:31 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 09:39:31 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 09:39:31 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 09:47:17 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 09:47:16 ICT 2025
+[INFO] 04-10-2025 09:47:19 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithRobotClass
+[INFO] 04-10-2025 09:47:25 [main] LogUtils - 👉 Click on element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 04-10-2025 09:47:33 [main] LogUtils - checkElementExist: false --- By.xpath: span[@class='filename']
+[ERROR] 04-10-2025 09:47:33 [main] LogUtils - ❌Test case testUploadFileWithRobotClass is failed.
+[ERROR] 04-10-2025 09:47:33 [main] LogUtils - java.lang.AssertionError: Can not upload file. expected [true] but found [false]
+[INFO] 04-10-2025 09:47:35 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 09:47:35 ICT 2025
+[INFO] 04-10-2025 09:47:35 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 09:47:35 [main] LogUtils - Test passed total: 0
+[INFO] 04-10-2025 09:47:35 [main] LogUtils - Test failed total: 1
+[INFO] 04-10-2025 09:47:35 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 09:48:18 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 09:48:17 ICT 2025
+[INFO] 04-10-2025 09:48:19 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithRobotClass
+[INFO] 04-10-2025 09:48:26 [main] LogUtils - 👉 Click on element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 04-10-2025 09:48:31 [main] LogUtils - checkElementExist: false --- By.xpath: span[@class='filename']
+[ERROR] 04-10-2025 09:48:31 [main] LogUtils - ❌Test case testUploadFileWithRobotClass is failed.
+[ERROR] 04-10-2025 09:48:31 [main] LogUtils - java.lang.AssertionError: Can not upload file. expected [true] but found [false]
+[INFO] 04-10-2025 09:48:32 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 09:48:32 ICT 2025
+[INFO] 04-10-2025 09:48:32 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 09:48:32 [main] LogUtils - Test passed total: 0
+[INFO] 04-10-2025 09:48:32 [main] LogUtils - Test failed total: 1
+[INFO] 04-10-2025 09:48:32 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 09:49:34 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 09:49:33 ICT 2025
+[INFO] 04-10-2025 09:49:36 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithRobotClass
+[INFO] 04-10-2025 09:49:42 [main] LogUtils - 👉 Click on element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 04-10-2025 09:49:47 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='filename']
+[INFO] 04-10-2025 09:49:47 [main] LogUtils - Get text of element By.xpath: //span[@class='filename']
+[INFO] 04-10-2025 09:49:47 [main] LogUtils - ==> TEXT: image2.jpg
+[INFO] 04-10-2025 09:49:47 [main] LogUtils - Assert equals: image2.jpg and image2.jpg
+[INFO] 04-10-2025 09:49:47 [main] LogUtils - ✅Test case testUploadFileWithRobotClass is passed.
+[INFO] 04-10-2025 09:49:48 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 09:49:48 ICT 2025
+[INFO] 04-10-2025 09:49:48 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 09:49:48 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 09:49:48 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 09:49:48 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 09:51:43 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 09:51:43 ICT 2025
+[INFO] 04-10-2025 09:51:45 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithRobotClass
+[INFO] 04-10-2025 09:51:53 [main] LogUtils - 👉 Click on element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 04-10-2025 09:51:58 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='filename']
+[INFO] 04-10-2025 09:51:58 [main] LogUtils - Get text of element By.xpath: //span[@class='filename']
+[INFO] 04-10-2025 09:51:58 [main] LogUtils - ==> TEXT: image2.jpg
+[INFO] 04-10-2025 09:51:58 [main] LogUtils - Assert equals: image2.jpg 🟰 image2.jpg
+[INFO] 04-10-2025 09:51:58 [main] LogUtils - ✅Test case testUploadFileWithRobotClass is passed.
+[INFO] 04-10-2025 09:51:59 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 09:51:59 ICT 2025
+[INFO] 04-10-2025 09:51:59 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 09:51:59 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 09:51:59 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 09:51:59 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 10:20:31 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 10:20:31 ICT 2025
+[INFO] 04-10-2025 10:20:33 [main] LogUtils - ▶Bắt đầu chạy test case: testUploadFileWithRobotClass
+[INFO] 04-10-2025 10:20:40 [main] LogUtils - 👉 Click on element By.xpath: //div[@id='uploadifive-file_upload']
+[INFO] 04-10-2025 10:20:45 [main] LogUtils - checkElementExist: true --- By.xpath: //span[@class='filename']
+[INFO] 04-10-2025 10:20:45 [main] LogUtils - Get text of element By.xpath: //span[@class='filename']
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - ==> TEXT: image2.jpg
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - Assert equals: image2.jpg 🟰 image2.jpg
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - ✅Test case testUploadFileWithRobotClass is passed.
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 10:20:46 ICT 2025
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 10:20:46 [main] LogUtils - Test skipped total: 0
