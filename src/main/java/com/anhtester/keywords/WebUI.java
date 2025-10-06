@@ -513,4 +513,52 @@ public class WebUI {
     public static String getPageSource() {
         return DriverManager.getDriver().getPageSource();
     }
+
+    @Step("Check data: {1} in Table by Column {2}")
+    public static void checkDataTableByColumn_Contains(int column, String value, String columnName) {
+
+        LogUtils.info("Check data: " + value + " in Table by Column " + columnName);
+        ExtentTestManager.logMessage(Status.INFO, "Check data: " + value + " in Table by Column " + columnName);
+
+        //Xác định số dòng của table sau khi search
+        List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//table//tbody/tr"));
+        int rowTotal = row.size(); //Lấy ra số dòng
+        System.out.println("Số dòng tìm thấy: " + rowTotal);
+
+        //Duyệt từng dòng
+        for (int i = 1; i <= rowTotal; i++) {
+            WebElement elementCheck = DriverManager.getDriver().findElement(By.xpath("//table//tbody/tr[" + i + "]/td[" + column + "]"));
+
+            JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+            js.executeScript("arguments[0].scrollIntoView(true);", elementCheck);
+
+            LogUtils.info(value + " - ");
+            LogUtils.info(elementCheck.getText());
+            Assert.assertTrue(elementCheck.getText().toUpperCase().contains(value.toUpperCase()), "Dòng số " + i + " không chứa giá trị tìm kiếm.");
+        }
+    }
+
+    @Step("Check data: {1} in Table by Column {2}")
+    public static void checkDataTableByColumn_Equals(int column, String value, String columnName) {
+
+        LogUtils.info("Check data: " + value + " in Table by Column " + columnName);
+        ExtentTestManager.logMessage(Status.INFO, "Check data: " + value + " in Table by Column " + columnName);
+
+        //Xác định số dòng của table sau khi search
+        List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//table//tbody/tr"));
+        int rowTotal = row.size(); //Lấy ra số dòng
+        System.out.println("Số dòng tìm thấy: " + rowTotal);
+
+        //Duyệt từng dòng
+        for (int i = 1; i <= rowTotal; i++) {
+            WebElement elementCheck = DriverManager.getDriver().findElement(By.xpath("//table//tbody/tr[" + i + "]/td[" + column + "]"));
+
+            JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+            js.executeScript("arguments[0].scrollIntoView(true);", elementCheck);
+
+            LogUtils.info(value + " - ");
+            LogUtils.info(elementCheck.getText());
+            Assert.assertTrue(elementCheck.getText().toUpperCase().equals(value.toUpperCase()), "Dòng số " + i + " không chứa giá trị tìm kiếm.");
+        }
+    }
 }

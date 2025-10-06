@@ -1,5 +1,6 @@
 package com.anhtester.common;
 
+import com.anhtester.Bai26_ParallelExecutionPOM.pages.CommonPage;
 import com.anhtester.drivers.DriverManager;
 import com.anhtester.helpers.CaptureHelper;
 import com.anhtester.helpers.PropertiesHelper;
@@ -14,7 +15,7 @@ import org.testng.annotations.*;
 import java.time.Duration;
 
 @Listeners(TestListener.class)
-public class BaseTest {
+public class BaseTest extends CommonPage {
 
     @BeforeSuite
     public void setupEnvironment() {

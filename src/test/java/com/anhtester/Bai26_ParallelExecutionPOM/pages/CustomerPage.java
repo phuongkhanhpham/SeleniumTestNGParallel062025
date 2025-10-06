@@ -4,7 +4,6 @@ import com.anhtester.drivers.DriverManager;
 import com.anhtester.keywords.WebUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 public class CustomerPage extends BasePage {
@@ -104,5 +103,21 @@ public class CustomerPage extends BasePage {
         String totalString = WebUI.getElementText(totalCustomers);
         System.out.println("getCustomerTotal: " + totalString);
         return Integer.parseInt(totalString);
+    }
+
+    public void searchAndCheckDataInTable_Contains(int column, String data, String columnName) {
+        WebUI.waitForPageLoaded();
+        WebUI.setText(searchCustomer, data);
+        WebUI.sleep(2);
+        WebUI.waitForPageLoaded();
+        WebUI.checkDataTableByColumn_Contains(column, data, columnName);
+    }
+
+    public void searchAndCheckDataInTable_Equals(int column, String data, String columnName) {
+        WebUI.waitForPageLoaded();
+        WebUI.setText(searchCustomer, data);
+        WebUI.sleep(2);
+        WebUI.waitForPageLoaded();
+        WebUI.checkDataTableByColumn_Equals(column, data, columnName);
     }
 }

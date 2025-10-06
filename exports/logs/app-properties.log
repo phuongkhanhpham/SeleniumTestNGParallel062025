@@ -1217,3 +1217,225 @@ Session ID: 5be7020f20271dacfa53734d171e6be8
 [INFO] 04-10-2025 10:20:46 [main] LogUtils - Test passed total: 1
 [INFO] 04-10-2025 10:20:46 [main] LogUtils - Test failed total: 0
 [INFO] 04-10-2025 10:20:46 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 12:41:20 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 12:41:19 ICT 2025
+[INFO] 04-10-2025 12:41:22 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 04-10-2025 12:41:24 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 04-10-2025 12:41:24 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 04-10-2025 12:41:24 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 04-10-2025 12:41:24 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 04-10-2025 12:41:26 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-10-2025 12:41:27 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[ERROR] 04-10-2025 12:41:27 [main] LogUtils - ❌Test case testSearchDataInTable is failed.
+[ERROR] 04-10-2025 12:41:27 [main] LogUtils - java.lang.AssertionError: Dòng số 1 không chứa giá trị tìm kiếm. expected [true] but found [false]
+[INFO] 04-10-2025 12:41:28 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 12:41:27 ICT 2025
+[INFO] 04-10-2025 12:41:28 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 12:41:28 [main] LogUtils - Test passed total: 0
+[INFO] 04-10-2025 12:41:28 [main] LogUtils - Test failed total: 1
+[INFO] 04-10-2025 12:41:28 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 12:43:45 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 12:43:44 ICT 2025
+[INFO] 04-10-2025 12:43:46 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 04-10-2025 12:43:47 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 04-10-2025 12:43:47 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 04-10-2025 12:43:47 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 04-10-2025 12:43:48 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 04-10-2025 12:43:49 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-10-2025 12:43:50 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[ERROR] 04-10-2025 12:43:50 [main] LogUtils - ❌Test case testSearchDataInTable is failed.
+[ERROR] 04-10-2025 12:43:50 [main] LogUtils - java.lang.AssertionError: Dòng số 1 không chứa giá trị tìm kiếm. expected [true] but found [false]
+[INFO] 04-10-2025 12:43:50 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 12:43:50 ICT 2025
+[INFO] 04-10-2025 12:43:50 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 12:43:50 [main] LogUtils - Test passed total: 0
+[INFO] 04-10-2025 12:43:50 [main] LogUtils - Test failed total: 1
+[INFO] 04-10-2025 12:43:50 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 12:46:35 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 12:46:35 ICT 2025
+[INFO] 04-10-2025 12:46:36 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 04-10-2025 12:46:37 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 04-10-2025 12:46:37 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 04-10-2025 12:46:37 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 04-10-2025 12:46:38 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 04-10-2025 12:46:39 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-10-2025 12:46:40 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[ERROR] 04-10-2025 12:46:40 [main] LogUtils - ❌Test case testSearchDataInTable is failed.
+[ERROR] 04-10-2025 12:46:40 [main] LogUtils - java.lang.AssertionError: Dòng số 1 không chứa giá trị tìm kiếm. expected [true] but found [false]
+[INFO] 04-10-2025 12:46:41 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 12:46:41 ICT 2025
+[INFO] 04-10-2025 12:46:41 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 12:46:41 [main] LogUtils - Test passed total: 0
+[INFO] 04-10-2025 12:46:41 [main] LogUtils - Test failed total: 1
+[INFO] 04-10-2025 12:46:41 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 12:48:06 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 12:48:05 ICT 2025
+[INFO] 04-10-2025 12:48:07 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 04-10-2025 12:48:08 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 04-10-2025 12:48:08 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 04-10-2025 12:48:08 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 04-10-2025 12:48:08 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 04-10-2025 12:48:10 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-10-2025 12:48:10 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 04-10-2025 12:48:13 [main] LogUtils - ✅Test case testSearchDataInTable is passed.
+[INFO] 04-10-2025 12:48:14 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 12:48:13 ICT 2025
+[INFO] 04-10-2025 12:48:14 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 12:48:14 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 12:48:14 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 12:48:14 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 12:49:28 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 12:49:28 ICT 2025
+[INFO] 04-10-2025 12:49:30 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 04-10-2025 12:49:31 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 04-10-2025 12:49:31 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 04-10-2025 12:49:31 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 04-10-2025 12:49:31 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 04-10-2025 12:49:33 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-10-2025 12:49:33 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 04-10-2025 12:49:36 [main] LogUtils - ✅Test case testSearchDataInTable is passed.
+[INFO] 04-10-2025 12:49:36 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 12:49:36 ICT 2025
+[INFO] 04-10-2025 12:49:36 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 12:49:36 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 12:49:36 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 12:49:36 [main] LogUtils - Test skipped total: 0
+[INFO] 04-10-2025 13:03:23 [main] LogUtils - 🛠Setup môi trường onStart: Sat Oct 04 13:03:23 ICT 2025
+[INFO] 04-10-2025 13:03:25 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 04-10-2025 13:03:26 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 04-10-2025 13:03:26 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 04-10-2025 13:03:26 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 04-10-2025 13:03:27 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 04-10-2025 13:03:28 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 04-10-2025 13:03:28 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 04-10-2025 13:03:31 [main] LogUtils - ✅Test case testSearchDataInTable is passed.
+[INFO] 04-10-2025 13:03:31 [main] LogUtils - ⭕Kết thúc bộ test: Sat Oct 04 13:03:31 ICT 2025
+[INFO] 04-10-2025 13:03:31 [main] LogUtils - Test total: 1
+[INFO] 04-10-2025 13:03:31 [main] LogUtils - Test passed total: 1
+[INFO] 04-10-2025 13:03:31 [main] LogUtils - Test failed total: 0
+[INFO] 04-10-2025 13:03:31 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 13:00:50 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 13:00:50 ICT 2025
+[INFO] 06-10-2025 13:00:53 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 06-10-2025 13:00:54 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 13:00:54 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 13:00:54 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 13:00:55 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 13:00:56 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 13:00:57 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - Check data: CustomerNamein Table by Column 3
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - customerName
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A1
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A10
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A11
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A12
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A13
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A2
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A3
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A4
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A5
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A6
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A7
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A8
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - CustomerName 01102024A9
+[INFO] 06-10-2025 13:00:59 [main] LogUtils - ✅Test case testSearchDataInTable is passed.
+[INFO] 06-10-2025 13:01:00 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 13:01:00 ICT 2025
+[INFO] 06-10-2025 13:01:00 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 13:01:00 [main] LogUtils - Test passed total: 1
+[INFO] 06-10-2025 13:01:00 [main] LogUtils - Test failed total: 0
+[INFO] 06-10-2025 13:01:00 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 13:02:03 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 13:02:03 ICT 2025
+[INFO] 06-10-2025 13:02:05 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 06-10-2025 13:02:06 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 13:02:06 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 13:02:06 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 13:02:06 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 13:02:09 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 13:02:10 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - Check data: CustomerName in Table by Column 3
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - customerName
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A1
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A10
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A11
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A12
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A13
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A2
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A3
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A4
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A5
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A6
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A7
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A8
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - CustomerName 01102024A9
+[INFO] 06-10-2025 13:02:12 [main] LogUtils - ✅Test case testSearchDataInTable is passed.
+[INFO] 06-10-2025 13:02:13 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 13:02:13 ICT 2025
+[INFO] 06-10-2025 13:02:13 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 13:02:13 [main] LogUtils - Test passed total: 1
+[INFO] 06-10-2025 13:02:13 [main] LogUtils - Test failed total: 0
+[INFO] 06-10-2025 13:02:13 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 13:06:30 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 13:06:29 ICT 2025
+[INFO] 06-10-2025 13:06:31 [main] LogUtils - ▶Bắt đầu chạy test case: testSearchDataInTable
+[INFO] 06-10-2025 13:06:33 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 13:06:33 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 13:06:33 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 13:06:33 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 13:06:34 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 13:06:35 [main] LogUtils - Set text CustomerName on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - Check data: CustomerName in Table by Column Company
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - customerName
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A1
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A10
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A11
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A12
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A13
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A2
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A3
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A4
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:37 [main] LogUtils - CustomerName 01102024A5
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName 01102024A6
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName 01102024A7
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName 01102024A8
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName - 
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - CustomerName 01102024A9
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - ✅Test case testSearchDataInTable is passed.
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 13:06:38 ICT 2025
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - Test passed total: 1
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - Test failed total: 0
+[INFO] 06-10-2025 13:06:38 [main] LogUtils - Test skipped total: 0
