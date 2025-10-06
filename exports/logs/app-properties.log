@@ -1439,3 +1439,754 @@ Session ID: 5be7020f20271dacfa53734d171e6be8
 [INFO] 06-10-2025 13:06:38 [main] LogUtils - Test passed total: 1
 [INFO] 06-10-2025 13:06:38 [main] LogUtils - Test failed total: 0
 [INFO] 06-10-2025 13:06:38 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 13:59:57 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 13:59:57 ICT 2025
+[INFO] 06-10-2025 13:59:59 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:00:02 [main] LogUtils - 🌐 Open URL:  https://datatables.net/
+[ERROR] 06-10-2025 14:00:02 [main] LogUtils - ❌Test case testCheckPaginationOnTable is failed.
+[ERROR] 06-10-2025 14:00:02 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='example_length']"}
+  (Session info: chrome=141.0.7390.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf9cdb655308697bad3f4327ac4b1be4, findElement {using=xpath, value=//select[@name='example_length']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\Khanh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50717/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf9cdb655308697bad3f4327ac4b1be4
+[INFO] 06-10-2025 14:00:03 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:00:03 ICT 2025
+[INFO] 06-10-2025 14:00:03 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:00:03 [main] LogUtils - Test passed total: 0
+[INFO] 06-10-2025 14:00:03 [main] LogUtils - Test failed total: 1
+[INFO] 06-10-2025 14:00:03 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:02:12 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:02:12 ICT 2025
+[INFO] 06-10-2025 14:02:15 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:02:17 [main] LogUtils - 🌐 Open URL:  https://datatables.net/
+[INFO] 06-10-2025 14:02:17 [main] LogUtils - 10
+[INFO] 06-10-2025 14:02:18 [main] LogUtils - Set text a on element By.xpath: //input[@type='search']
+[INFO] 06-10-2025 14:02:18 [main] LogUtils - Get text of element By.xpath: //div[@id='example_info']
+[INFO] 06-10-2025 14:02:18 [main] LogUtils - ==> TEXT: Showing 1 to 10 of 56 entries (filtered from 57 total entries)
+[INFO] 06-10-2025 14:02:18 [main] LogUtils - Check data: a in Table by Column Name colum
+[INFO] 06-10-2025 14:02:18 [main] LogUtils - a - 
+[INFO] 06-10-2025 14:02:18 [main] LogUtils - Tokyo
+[ERROR] 06-10-2025 14:02:18 [main] LogUtils - ❌Test case testCheckPaginationOnTable is failed.
+[ERROR] 06-10-2025 14:02:18 [main] LogUtils - java.lang.AssertionError: Dòng số 1 không chứa giá trị tìm kiếm. expected [true] but found [false]
+[INFO] 06-10-2025 14:02:19 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:02:19 ICT 2025
+[INFO] 06-10-2025 14:02:19 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:02:19 [main] LogUtils - Test passed total: 0
+[INFO] 06-10-2025 14:02:19 [main] LogUtils - Test failed total: 1
+[INFO] 06-10-2025 14:02:19 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:03:45 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:03:44 ICT 2025
+[INFO] 06-10-2025 14:03:46 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:03:48 [main] LogUtils - 🌐 Open URL:  https://datatables.net/
+[INFO] 06-10-2025 14:03:48 [main] LogUtils - 10
+[INFO] 06-10-2025 14:03:49 [main] LogUtils - Set text a on element By.xpath: //input[@type='search']
+[INFO] 06-10-2025 14:03:51 [main] LogUtils - Get text of element By.xpath: //div[@id='example_info']
+[INFO] 06-10-2025 14:03:51 [main] LogUtils - ==> TEXT: Showing 1 to 10 of 56 entries (filtered from 57 total entries)
+[INFO] 06-10-2025 14:03:51 [main] LogUtils - Check data: a in Table by Column Name colum
+[INFO] 06-10-2025 14:03:51 [main] LogUtils - a - 
+[INFO] 06-10-2025 14:03:51 [main] LogUtils - Tokyo
+[ERROR] 06-10-2025 14:03:51 [main] LogUtils - ❌Test case testCheckPaginationOnTable is failed.
+[ERROR] 06-10-2025 14:03:51 [main] LogUtils - java.lang.AssertionError: Dòng số 1 không chứa giá trị tìm kiếm. expected [true] but found [false]
+[INFO] 06-10-2025 14:03:52 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:03:52 ICT 2025
+[INFO] 06-10-2025 14:03:52 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:03:52 [main] LogUtils - Test passed total: 0
+[INFO] 06-10-2025 14:03:52 [main] LogUtils - Test failed total: 1
+[INFO] 06-10-2025 14:03:52 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:05:29 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:05:28 ICT 2025
+[INFO] 06-10-2025 14:05:31 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:05:33 [main] LogUtils - 🌐 Open URL:  https://datatables.net/
+[INFO] 06-10-2025 14:05:33 [main] LogUtils - 10
+[INFO] 06-10-2025 14:05:33 [main] LogUtils - Set text a on element By.xpath: //input[@type='search']
+[INFO] 06-10-2025 14:05:35 [main] LogUtils - Get text of element By.xpath: //div[@id='example_info']
+[INFO] 06-10-2025 14:05:35 [main] LogUtils - ==> TEXT: Showing 1 to 10 of 56 entries (filtered from 57 total entries)
+[INFO] 06-10-2025 14:05:35 [main] LogUtils - Check data: a in Table by Column Name colum
+[INFO] 06-10-2025 14:05:35 [main] LogUtils - a - 
+[INFO] 06-10-2025 14:05:35 [main] LogUtils - 1
+[ERROR] 06-10-2025 14:05:36 [main] LogUtils - ❌Test case testCheckPaginationOnTable is failed.
+[ERROR] 06-10-2025 14:05:36 [main] LogUtils - java.lang.AssertionError: Dòng số 1 không chứa giá trị tìm kiếm. expected [true] but found [false]
+[INFO] 06-10-2025 14:05:37 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:05:37 ICT 2025
+[INFO] 06-10-2025 14:05:37 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:05:37 [main] LogUtils - Test passed total: 0
+[INFO] 06-10-2025 14:05:37 [main] LogUtils - Test failed total: 1
+[INFO] 06-10-2025 14:05:37 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:24:03 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:24:03 ICT 2025
+[INFO] 06-10-2025 14:24:05 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:25:06 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:25:06 ICT 2025
+[INFO] 06-10-2025 14:25:07 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:25:09 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 14:25:09 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 14:25:09 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 14:25:09 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 14:25:12 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 14:25:14 [main] LogUtils - 10
+[INFO] 06-10-2025 14:25:14 [main] LogUtils - Set text Anh Tester on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 14:25:16 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@id=clients_info']
+[ERROR] 06-10-2025 14:25:16 [main] LogUtils - ❌Test case testCheckPaginationOnTable is failed.
+[ERROR] 06-10-2025 14:25:16 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //div[@id=clients_info']
+[INFO] 06-10-2025 14:25:17 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:25:17 ICT 2025
+[INFO] 06-10-2025 14:25:17 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:25:17 [main] LogUtils - Test passed total: 0
+[INFO] 06-10-2025 14:25:17 [main] LogUtils - Test failed total: 1
+[INFO] 06-10-2025 14:25:17 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:27:53 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:27:53 ICT 2025
+[INFO] 06-10-2025 14:27:55 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:27:56 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 14:27:56 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 14:27:56 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 14:27:56 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 14:27:58 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 14:28:00 [main] LogUtils - 10
+[INFO] 06-10-2025 14:28:00 [main] LogUtils - Set text Anh Tester on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info']
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - ==> TEXT: Showing 1 to 10 of 114 entries (filtered from 1,453 total entries)
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN2
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:02 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN2
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:28:03 [main] LogUtils - Anh Tester 02122024AN3
+[ERROR] 06-10-2025 14:28:03 [main] LogUtils - ❌Test case testCheckPaginationOnTable is failed.
+[ERROR] 06-10-2025 14:28:03 [main] LogUtils - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cb1e70b089f10eecb1c609e8ddb66e1, clickElement {id=f.D9FDA435B7E866255C79CB8DF47DBD7F.d.CE84667A55D4A65D1099B51A74628809.e.247}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\Khanh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63837/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1cb1e70b089f10eecb1c609e8ddb66e1)] -> xpath: //li[@id='clients_next']/a]
+Session ID: 1cb1e70b089f10eecb1c609e8ddb66e1
+[INFO] 06-10-2025 14:28:04 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:28:04 ICT 2025
+[INFO] 06-10-2025 14:28:04 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:28:04 [main] LogUtils - Test passed total: 0
+[INFO] 06-10-2025 14:28:04 [main] LogUtils - Test failed total: 1
+[INFO] 06-10-2025 14:28:04 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:33:41 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:33:40 ICT 2025
+[INFO] 06-10-2025 14:33:42 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:33:43 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 14:33:43 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 14:33:43 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 14:33:43 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 14:33:45 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 14:33:47 [main] LogUtils - 10
+[INFO] 06-10-2025 14:33:47 [main] LogUtils - Set text Anh Tester on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info']
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - ==> TEXT: Showing 1 to 10 of 114 entries (filtered from 1,453 total entries)
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:49 [main] LogUtils - Anh Tester 02122024AN2
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester 02122024AN3
+View | Contacts | Delete
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:50 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 0212A1
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 0502A0
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:33:52 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A13
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A2
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A3
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 0502A5
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:54 [main] LogUtils - Anh Tester 05122024AN1
+[INFO] 06-10-2025 14:33:55 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:55 [main] LogUtils - Anh Tester 05122024AN1
+[INFO] 06-10-2025 14:33:55 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 05122024AN2
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524A1
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H1
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H1
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H2
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H3
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H4
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:33:57 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 07062024A3
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 07062024A3
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 09072025A1
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:33:59 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:34:01 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09122024AN1
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09122024AN2
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09122024AN3
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09122024AN4
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09122024AN5
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09122024AN5
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 09122024AN5
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 10062024A7
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - Anh Tester 10062024A7
+[INFO] 06-10-2025 14:34:02 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 123
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 123
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 123
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 1234
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 1751464442117
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - Anh Tester 1751464942958
+[INFO] 06-10-2025 14:34:04 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:34:06 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:34:06 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:06 [main] LogUtils - Anh Tester 1751465733971
+[INFO] 06-10-2025 14:34:06 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1751634275021
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1751638803852
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1752068803109
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1752419618379
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1752420188217
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1752589916291
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1754549647947
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 1754549986163
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - Anh Tester 250728001
+[INFO] 06-10-2025 14:34:07 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250728002
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250804001
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250804002
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250804002
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250804003
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250804003
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250804003
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250805001
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250805002
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - Anh Tester 250820001
+[INFO] 06-10-2025 14:34:09 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 250820002
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:11 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:12 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:34:14 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester 2811A2
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester 2811A2
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester 2811A3
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Anh Tester 5021A2
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - ✅Test case testCheckPaginationOnTable is passed.
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:34:16 ICT 2025
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Test passed total: 1
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Test failed total: 0
+[INFO] 06-10-2025 14:34:16 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:50:16 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:50:16 ICT 2025
+[INFO] 06-10-2025 14:50:18 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:50:20 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 14:50:20 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 14:50:20 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 14:50:20 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 14:50:22 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 14:50:24 [main] LogUtils - 25
+[INFO] 06-10-2025 14:50:24 [main] LogUtils - Set text Anh Tester on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 14:50:26 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info']
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - ==> TEXT: Showing 1 to 25 of 114 entries (filtered from 1,453 total entries)
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN1
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN2
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 02122024AN3
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 0212A1
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 0502A0
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:27 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester 0502A1
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - Anh Tester 0502A13
+View | Contacts | Delete
+[INFO] 06-10-2025 14:50:28 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0502A2
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0502A3
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0502A5
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 05122024AN1
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 05122024AN1
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 05122024AN2
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524A1
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H1
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H1
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H2
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H3
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H4
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester 0524H5
+[INFO] 06-10-2025 14:50:30 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester 07062024A3
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester 07062024A3
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester 09072025A1
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:50:31 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09072025A2
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09122024AN1
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09122024AN2
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09122024AN3
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09122024AN4
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09122024AN5
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09122024AN5
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 09122024AN5
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 10062024A7
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 10062024A7
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 123
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 123
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 123
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 1234
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 13012025AN1
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 1751464442117
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 1751464942958
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 1751465733971
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:33 [main] LogUtils - Anh Tester 1751634275021
+[INFO] 06-10-2025 14:50:34 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:34 [main] LogUtils - Anh Tester 1751638803852
+[INFO] 06-10-2025 14:50:34 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:34 [main] LogUtils - Anh Tester 1752068803109
+[INFO] 06-10-2025 14:50:34 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:34 [main] LogUtils - Anh Tester 1752419618379
+[INFO] 06-10-2025 14:50:34 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 1752420188217
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 1752589916291
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 1754549647947
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 1754549986163
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250728001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250728002
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250804001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250804002
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250804002
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250804003
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250804003
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250804003
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250805001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250805002
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250820001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250820002
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 250923001
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:36 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:37 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:37 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:37 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:37 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:37 [main] LogUtils - 👉 Click on element By.xpath: //li[@id='clients_next']/a
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - 🟢 Check data: Anh Tester in Table by Column Company
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A2
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A2
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 2811A3
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester - 
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Anh Tester 5021A2
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - ✅Test case testCheckPaginationOnTable is passed.
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:50:39 ICT 2025
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Test passed total: 1
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Test failed total: 0
+[INFO] 06-10-2025 14:50:39 [main] LogUtils - Test skipped total: 0
+[INFO] 06-10-2025 14:58:04 [main] LogUtils - 🛠Setup môi trường onStart: Mon Oct 06 14:58:04 ICT 2025
+[INFO] 06-10-2025 14:58:05 [main] LogUtils - ▶Bắt đầu chạy test case: testCheckPaginationOnTable
+[INFO] 06-10-2025 14:58:06 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 06-10-2025 14:58:07 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-10-2025 14:58:07 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-10-2025 14:58:07 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-10-2025 14:58:09 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 06-10-2025 14:58:11 [main] LogUtils - 25
+[INFO] 06-10-2025 14:58:11 [main] LogUtils - Set text An on element By.xpath: //div[@id='clients_filter']//input[@type='search']
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - Get text of element By.xpath: //div[@id='clients_info']
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - ==> TEXT: Showing 1 to 25 of 413 entries (filtered from 1,453 total entries)
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - 🟢 Check data: An in Table by Column Company
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 002
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 003
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 004
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 005
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 005
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 006
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 006
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 007
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:13 [main] LogUtils - [Ha Le] Company ABC 008
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 009
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 010
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 011
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 012
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 013
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 014
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 015
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 016
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 017
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 018
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 08152025HA001
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 08152025HA002
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 08152025HA003
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - [Ha Le] Company ABC 08152025HA004
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - An - 
+[INFO] 06-10-2025 14:58:14 [main] LogUtils - ABC
+[ERROR] 06-10-2025 14:58:15 [main] LogUtils - ❌Test case testCheckPaginationOnTable is failed.
+[ERROR] 06-10-2025 14:58:15 [main] LogUtils - java.lang.AssertionError: Dòng số 25 không chứa giá trị tìm kiếm. expected [true] but found [false]
+[INFO] 06-10-2025 14:58:15 [main] LogUtils - ⭕Kết thúc bộ test: Mon Oct 06 14:58:15 ICT 2025
+[INFO] 06-10-2025 14:58:15 [main] LogUtils - Test total: 1
+[INFO] 06-10-2025 14:58:15 [main] LogUtils - Test passed total: 0
+[INFO] 06-10-2025 14:58:15 [main] LogUtils - Test failed total: 1
+[INFO] 06-10-2025 14:58:15 [main] LogUtils - Test skipped total: 0

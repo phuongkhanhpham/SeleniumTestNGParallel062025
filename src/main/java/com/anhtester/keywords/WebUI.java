@@ -2,6 +2,7 @@ package com.anhtester.keywords;
 
 import com.anhtester.drivers.DriverManager;
 import com.anhtester.helpers.PropertiesHelper;
+import com.anhtester.helpers.SystemHelper;
 import com.anhtester.reports.AllureManager;
 import com.anhtester.reports.ExtentTestManager;
 import com.anhtester.utils.LogUtils;
@@ -517,8 +518,8 @@ public class WebUI {
     @Step("Check data: {1} in Table by Column {2}")
     public static void checkDataTableByColumn_Contains(int column, String value, String columnName) {
 
-        LogUtils.info("Check data: " + value + " in Table by Column " + columnName);
-        ExtentTestManager.logMessage(Status.INFO, "Check data: " + value + " in Table by Column " + columnName);
+        LogUtils.info("\uD83D\uDFE2 Check data: " + value + " in Table by Column " + columnName);
+        ExtentTestManager.logMessage(Status.INFO, "\uD83D\uDFE2 Check data: " + value + " in Table by Column " + columnName);
 
         //Xác định số dòng của table sau khi search
         List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//table//tbody/tr"));
@@ -534,7 +535,7 @@ public class WebUI {
 
             LogUtils.info(value + " - ");
             LogUtils.info(elementCheck.getText());
-            Assert.assertTrue(elementCheck.getText().toUpperCase().contains(value.toUpperCase()), "Dòng số " + i + " không chứa giá trị tìm kiếm.");
+            Assert.assertTrue(SystemHelper.removeSpecialCharaters(elementCheck.getText()).toUpperCase().contains(SystemHelper.removeSpecialCharaters(value).toUpperCase()), "Dòng số " + i + " không chứa giá trị tìm kiếm.");
         }
     }
 

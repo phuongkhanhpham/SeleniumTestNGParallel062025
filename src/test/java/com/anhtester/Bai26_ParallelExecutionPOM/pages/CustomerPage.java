@@ -11,7 +11,7 @@ public class CustomerPage extends BasePage {
     private By headerCustomersPage = By.xpath("//span[normalize-space()='Customers Summary']");
     private By buttonAddNewCustomer = By.xpath("//a[normalize-space()='New Customer']");
     private By buttonImportCustomer = By.xpath("//a[normalize-space()='Import Customers']");
-    private By searchCustomer = By.xpath("//div[@id='clients_filter']//input[@type='search']");
+    private By inputSearchCustomer = By.xpath("//div[@id='clients_filter']//input[@type='search']");
     private By itemCustomerFirst = By.xpath("//table[@id='clients']//tbody/tr[1]/td[3]/a");
     private By inputCompany = By.xpath("//input[@id='company']");
     private By inputVat = By.xpath("//input[@id='vat']");
@@ -88,7 +88,7 @@ public class CustomerPage extends BasePage {
 
     public void searchAndCheckCustomerInTable(String customerName) {
         WebUI.clickElement(menuCustomer);
-        WebUI.setText(searchCustomer, customerName);
+        WebUI.setText(inputSearchCustomer, customerName);
         WebUI.sleep(2);
         String customerNameInTable = WebUI.getElementText(itemCustomerFirst);
         System.out.println(customerNameInTable);
@@ -107,7 +107,7 @@ public class CustomerPage extends BasePage {
 
     public void searchAndCheckDataInTable_Contains(int column, String data, String columnName) {
         WebUI.waitForPageLoaded();
-        WebUI.setText(searchCustomer, data);
+        WebUI.setText(inputSearchCustomer, data);
         WebUI.sleep(2);
         WebUI.waitForPageLoaded();
         WebUI.checkDataTableByColumn_Contains(column, data, columnName);
@@ -115,9 +115,14 @@ public class CustomerPage extends BasePage {
 
     public void searchAndCheckDataInTable_Equals(int column, String data, String columnName) {
         WebUI.waitForPageLoaded();
-        WebUI.setText(searchCustomer, data);
+        WebUI.setText(inputSearchCustomer, data);
         WebUI.sleep(2);
         WebUI.waitForPageLoaded();
         WebUI.checkDataTableByColumn_Equals(column, data, columnName);
+    }
+
+    public void searchDataCustomer(String data) {
+        WebUI.waitForPageLoaded();
+        WebUI.setText(inputSearchCustomer, data);
     }
 }
