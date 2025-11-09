@@ -2190,3 +2190,44 @@ View | Contacts | Delete
 [INFO] 06-10-2025 14:58:15 [main] LogUtils - Test passed total: 0
 [INFO] 06-10-2025 14:58:15 [main] LogUtils - Test failed total: 1
 [INFO] 06-10-2025 14:58:15 [main] LogUtils - Test skipped total: 0
+[INFO] 08-10-2025 10:57:25 [main] LogUtils - 🛠Setup môi trường onStart: Wed Oct 08 10:57:25 ICT 2025
+[INFO] 08-10-2025 10:57:35 [main] LogUtils - ▶Bắt đầu chạy test case: testAddNewCustomer
+[INFO] 08-10-2025 10:57:41 [main] LogUtils - 🌐 Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO] 08-10-2025 10:57:43 [main] LogUtils - Clear text on element By.xpath: //input[@id='email']
+[INFO] 08-10-2025 10:57:45 [main] LogUtils - Clear text on element By.xpath: //input[@id='password']
+[INFO] 08-10-2025 10:57:47 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 08-10-2025 10:57:49 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 08-10-2025 10:57:54 [main] LogUtils - 👉 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 08-10-2025 10:57:55 [main] LogUtils - Assert NOT contains: https://crm.anhtester.com/admin/ and authentication
+[INFO] 08-10-2025 10:57:58 [main] LogUtils - 👉 Click on element By.xpath: //span[normalize-space()='Customers']
+[INFO] 08-10-2025 10:57:58 [main] LogUtils - checkElementExist: true --- By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 08-10-2025 10:57:58 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Customers Summary']
+[INFO] 08-10-2025 10:57:58 [main] LogUtils - ==> TEXT: Customers Summary
+[INFO] 08-10-2025 10:57:58 [main] LogUtils - Assert equals: Customers Summary 🟰 Customers Summary
+[INFO] 08-10-2025 10:57:58 [main] LogUtils - Get text of element By.xpath: //span[normalize-space()='Total Customers']/preceding-sibling::span
+[INFO] 08-10-2025 10:57:58 [main] LogUtils - ==> TEXT: 1456
+[INFO] 08-10-2025 10:58:00 [main] LogUtils - 👉 Click on element By.xpath: //a[normalize-space()='New Customer']
+[INFO] 08-10-2025 10:58:02 [main] LogUtils - Set text Anh Tester 250820002 on element By.xpath: //input[@id='company']
+[INFO] 08-10-2025 10:58:04 [main] LogUtils - Set text 10 on element By.xpath: //input[@id='vat']
+[INFO] 08-10-2025 10:58:07 [main] LogUtils - Set text 0123456789 on element By.xpath: //input[@id='phonenumber']
+[INFO] 08-10-2025 10:58:09 [main] LogUtils - Set text https://anhtester.com/ on element By.xpath: //input[@id='website']
+[INFO] 08-10-2025 10:58:11 [main] LogUtils - 👉 Click on element By.xpath: //button[@data-id='groups_in[]']
+[INFO] 08-10-2025 10:58:13 [main] LogUtils - Set text VIP on element By.xpath: //button[@data-id='groups_in[]']/following-sibling::div//input
+[INFO] 08-10-2025 10:58:14 [main] LogUtils - Timeout waiting for the element ready to click. By.xpath: //span[text()='VIP']
+[ERROR] 08-10-2025 10:58:14 [main] LogUtils - ❌Test case testAddNewCustomer is failed.
+[ERROR] 08-10-2025 10:58:14 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element ready to click. By.xpath: //span[text()='VIP']
+[ERROR] 08-10-2025 10:58:14 [main] LogUtils - ❌Test case testAddNewCustomer is failed.
+[ERROR] 08-10-2025 10:58:14 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.54)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2dd5c18d1ba5c03b2ee5329eba68763, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.65 (b2ec783d2b51..., userDataDir: C:\Users\Khanh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57880}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57880/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2dd5c18d1ba5c03b2ee5329eba68763
+[INFO] 08-10-2025 10:58:14 [main] LogUtils - ⭕Kết thúc bộ test: Wed Oct 08 10:58:14 ICT 2025
+[INFO] 08-10-2025 10:58:14 [main] LogUtils - Test total: 1
+[INFO] 08-10-2025 10:58:14 [main] LogUtils - Test passed total: 0
+[INFO] 08-10-2025 10:58:14 [main] LogUtils - Test failed total: 0
+[INFO] 08-10-2025 10:58:14 [main] LogUtils - Test skipped total: 0

@@ -24,7 +24,7 @@ import java.util.List;
 public class WebUI {
 
     private static int TIMEOUT = Integer.parseInt(PropertiesHelper.getValue("EXPLICIT_WAIT"));
-    private static double STEP_TIME = 0;
+    private static double STEP_TIME = 2;
     private static int PAGE_LOAD_TIMEOUT = 30;
 
     //Wait for Element
